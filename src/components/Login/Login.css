@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /* Importing a stylish font */
+
+.containerLogin{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+.boxLogin{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color:#fdf5df;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transfrom 0.6 ease-in-out;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+
+
+
+}
+.sideLogin1{
+    width: 50%;
+    padding: 40px;
+    overflow-x: auto;
+
+
+}
+.sideLogin2{
+    width: 50%;
+    background-color:#5ebec4;
+    padding: 40px;
+
+}
+
+
+
+.login .boxLogin{
+    transform: translate(0%);
+}
+
+.register .boxLogin{
+    transform: translate(-50%);
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #0a0707;
+    border-radius: 5px;
+}
+
+
+
+.toggle{
+    color: rgb(51, 85, 68);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.toggle:hover{
+    color: rgb(61, 87, 79);
+}
+
+.login-caption{
+    font-family:'Poppins', sans-serif;
+    font-size: 2.1rem;
+    background: linear-gradient(90deg, #d48166, #373a36, #00458b);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    animation: slideBackground 5s linear infinite; 
+    text-align: center;
+    margin: 20px 0;
+    animation: slideBackground 5s linear infinite, fadeIn 2s ease-in-out forwards, scaleUp 2s ease-in-out infinite;
+    opacity: 2; 
+  }
+  
+  @keyframes slideBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

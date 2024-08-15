@@ -1,0 +1,22 @@
+.containerMovies{
+padding-top: 8%;
+margin: 0;
+padding-left: 0;
+}
+
+.marq{
+    color:#0e0c0a;
+    font-size: xx-large;
+    background-color: yellowgreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+}
+
+.marq1{
+    color:#0e0c0a;
+    font-size: xx-large;
+    background-color: rgb(81, 91, 65);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+
+}

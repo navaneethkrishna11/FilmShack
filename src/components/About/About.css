@@ -1,0 +1,41 @@
+.containerAbout{
+    padding-top: 9%;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+.containerSide1 h1{
+    font-size: xx-large;
+}
+.containerSide1{
+    color: aliceblue;
+    margin: 10px 13px 2px 2px;
+    padding: 1%;
+    font-size:larger;
+    font-family: fantasy;
+    text-align: justify;
+
+}
+.containerSide2{
+    padding-top: 1px;
+    padding: 2%;
+    color: aliceblue;
+    font-family: fantasy;
+    display: flex; 
+   align-items: center; 
+    justify-content: space-between; 
+  
+}
+.side2part1{
+    display: flex;
+    border: 2px solid wheat;
+    padding: 3%;
+}
+.side2part2{
+    color: aliceblue;
+    text-align: justify;
+    font-size: large;
+    border: 2px solid wheat;
+    padding: 3.8%;
+}

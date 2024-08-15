@@ -1,0 +1,55 @@
+.navbar{
+    position: absolute;
+    width: 96%;
+    height: 10px;
+    padding: 25px;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+  
+}
+
+.filmshack{
+    position: absolute;
+    left: 20px;
+    width: 80px;
+}
+.avatar{
+    position: absolute;
+    left: 96%;
+    width: 30px;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: center;
+    cursor: pointer;
+    gap: 20px;
+    position: relative;
+    top: -40px;
+}
+.nav2 :hover{
+    background-color: rgb(83, 84, 84) ;
+    padding: 4px;
+    margin: 1px;
+    
+}
+
+.film {
+    color: rgb(55, 128, 66); /* Choose your desired color for "Film" */
+    font-size: 190%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .shack {
+    color: rgb(154, 174, 54); /* Choose your desired color for "Shack" */
+    font-size: 190%;
+    
+  }
+  

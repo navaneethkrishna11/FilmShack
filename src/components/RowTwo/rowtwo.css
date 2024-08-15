@@ -1,0 +1,32 @@
+.container2{
+    padding: 200px;
+   
+    max-height: 100%;
+
+}
+.twocol{
+    border: 2px white solid;
+    padding: 10px 0px 5% 0px;
+}
+.head{
+    padding-left: 5px;
+    cursor: pointer;
+}
+.head .parent{
+    color:rgb(255, 255, 136);
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head .child{
+    font-size:large;
+    color: rgb(154, 199, 199);
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head h1{
+    text-align: center;
+    color: antiquewhite;
+    font-size:xx-large;
+}
+
