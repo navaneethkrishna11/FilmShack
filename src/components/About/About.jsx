@@ -19,6 +19,8 @@ function About() {
             <center>
           <h1>About Us</h1>
           </center>
+          <br />
+          
           <p>
 
 Welcome to <b>FilmShack</b>, the ultimate cross-platform destination for film and series enthusiasts! At FilmShack, our goal is to bring together the best of cinematic entertainment in one sleek, user-friendly interface that seamlessly operates across devices. Currently, the platform is focused on the frontend, boasting a dynamic and modern design developed using React.js, enhanced by powerful CSS tools for a visually stunning user experience. Whether you’re a movie buff or a series binge-watcher, FilmShack is crafted to serve your entertainment needs.
@@ -29,7 +31,7 @@ As FilmShack is continuously evolving, we’re currently focused on refining the
           </p>
           </div>
           <center>
-          <h1 style={{ color: "aliceblue",fontFamily:" fantasy",padding:'30px 0px 0px 31px'}}>About Owner</h1>
+          <h1 style={{ color: "aliceblue",fontFamily:'Georgia,Times New Roman, Times, serif',padding:'30px 0px 0px 31px'}}>About Owner</h1>
           </center>
           <div className="containerSide2">
             

@@ -13,7 +13,7 @@
     margin: 10px 13px 2px 2px;
     padding: 1%;
     font-size:larger;
-    font-family: fantasy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
 
 }
@@ -21,7 +21,7 @@
     padding-top: 1px;
     padding: 2%;
     color: aliceblue;
-    font-family: fantasy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex; 
    align-items: center; 
     justify-content: space-between; 
@@ -37,5 +37,5 @@
     text-align: justify;
     font-size: large;
     border: 2px solid wheat;
-    padding: 3.8%;
+    padding: 3.87%;
 }
